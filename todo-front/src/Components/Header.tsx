@@ -1,16 +1,7 @@
+import IHeaderProps from "../Interfaces/IHeaderProps";
 import Input from "./Input";
 
-interface Props {
-  user: usuario;
-  chave: string
-}
-
-interface usuario {
-  name: string;
-  profilePic: string;
-  todos: string[];
-}
-const Header = ({user, chave}: Props) => {
+const Header = ({user, chave}: IHeaderProps) => {
   return (
     <div>
       <header>
