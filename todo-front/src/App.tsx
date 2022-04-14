@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <Input />
+      <h1>teste</h1>
     </div>
   );
 }
