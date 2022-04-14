@@ -1,20 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Input from './Components/Input';
+import "./App.css";
+import Header from "./Components/Header";
+import Input from "./Components/Input";
+
+const usuario = {
+  name: 'Matheus',
+  profilePic: 'teste',
+  todos: []
+}
+const outraChave = 'teste'
 
 function App() {
   return (
     <div className="App">
-      <Input />
-      <h1>teste</h1>
-      <h2>teste2</h2>
-      <h2>teste3</h2>
-      <h2>teste4</h2>
-      <h2>teste5</h2>
-      <h2>teste6</h2>
-
-
+      <Header user={usuario} chave={outraChave} />
     </div>
   );
 }

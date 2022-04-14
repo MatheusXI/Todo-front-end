@@ -1,4 +1,8 @@
-const Input: React.FC = () => {
-    return (<input type={"text"} placeholder="teste"/>)
+interface Props {
+  p: string;
 }
-export default Input
+
+const Input = () => {
+  return <input type={"text"} placeholder={'teste'} />;
+};
+export default Input;
