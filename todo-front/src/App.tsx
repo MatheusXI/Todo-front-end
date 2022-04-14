@@ -12,6 +12,7 @@ function App() {
       <h2>teste3</h2>
       <h2>teste4</h2>
       <h2>teste5</h2>
+      <h2>teste6</h2>
 
 
     </div>
