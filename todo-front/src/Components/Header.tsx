@@ -15,7 +15,7 @@ const Header = ({user, chave}: Props) => {
     <div>
       <header>
         <Input />
-        <h2>{user.name}  {chave}</h2>
+        <h2>{user.name} teste {chave}</h2>
       </header>
       {/* <Profile /> */}
     </div>
