@@ -1,5 +1,6 @@
 import IHeaderProps from "../Interfaces/IHeaderProps";
 import Input from "./Input";
+import Todo from "./Todo";
 
 const Header = ({user, chave}: IHeaderProps) => {
   return (
